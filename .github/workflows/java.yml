@@ -18,7 +18,7 @@ jobs:
           java-version: '17'
       - name: Compile Java
         run: |
-          javac HelloWorld.Java
+          javac HelloWorld.java
       - name: Run Program
         run: |
           java HelloWorld
